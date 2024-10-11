@@ -1,7 +1,7 @@
 from models.usuario import Usuario
 from sqlalchemy.orm import Session
 
-class UsuarioRpository:
+class UsuarioRepository:
     def __init__(self, session :Session )->None:
         self.session = session
         
